@@ -1,0 +1,13 @@
+[
+  {
+    "category": "nik",
+    "value": "3271041210900012",
+    "source": "structural-validation",
+    "source_url": "",
+    "retrieved_at": "2026-11-05T07:03:02.212953+00:00",
+    "confidence": 0.95,
+    "notes": "valid=True; gender=male; birthdate=12-10-1990",
+    "raw": {},
+    "key": "nik:3271041210900012"
+  }
+]

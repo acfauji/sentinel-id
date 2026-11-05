@@ -72,4 +72,4 @@ def to_json(evidence_list: list[Evidence]) -> str:
 
 def from_json(text: str) -> list[Evidence]:
     data = json.loads(text)
-    return [Evidence(**item) for item in data]
+    return [Evidence(**{k: v for k, v in item.items() if k != "key"}) for item in data]
